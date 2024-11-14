@@ -13,6 +13,8 @@ export class SendTestEmailService {
         user: process.env.AWS_SES_ACCESS_KEY,
         pass: process.env.AWS_SES_SECRET_KEY,
       },
+      logger: true,
+      debug: true,
     });
   }
 
