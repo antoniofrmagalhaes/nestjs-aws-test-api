@@ -21,6 +21,8 @@ export class SendFormService {
     const guild = this.formClient.guilds.cache.get(
       process.env.DISCORD_GUILD_ID,
     );
+
+    console.log('Busca da guilda', process.env.DISCORD_GUILD_ID);
     if (!guild) throw new Error('Guilda não encontrada');
 
     const channel = guild.channels.cache.get(process.env.DISCORD_CHANNEL_ID);

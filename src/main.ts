@@ -13,6 +13,9 @@ async function bootstrap() {
 // console.log('Port:', process.env.AWS_SES_PORT);
 // console.log('Access Key:', process.env.AWS_SES_ACCESS_KEY);
 // console.log('Secret Key:', process.env.AWS_SES_SECRET_KEY);
-// console.log('Email:', process.env.AWS_SES_VERIFIED_EMAIL_ADDRESS);
+console.log('DISCORD_MEMBER_BOT_TOKEN:', process.env.DISCORD_MEMBER_BOT_TOKEN);
+console.log('DISCORD_FORM_BOT_TOKEN:', process.env.DISCORD_FORM_BOT_TOKEN);
+console.log('DISCORD_GUILD_ID:', process.env.DISCORD_GUILD_ID);
+console.log('DISCORD_CHANNEL_ID:', process.env.DISCORD_CHANNEL_ID);
 
 bootstrap();

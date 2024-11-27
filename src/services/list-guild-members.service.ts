@@ -29,6 +29,7 @@ export class ListGuildMembersService {
     }
 
     // Busca da guilda
+    console.log('Busca da guilda', process.env.DISCORD_GUILD_ID);
     const guild = this.memberClient.guilds.cache.get(
       process.env.DISCORD_GUILD_ID,
     );
