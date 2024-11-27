@@ -10,6 +10,8 @@ async function bootstrap() {
     ? process.env.CORS_ORIGIN.split(',').map((origin) => origin.trim())
     : ['*']; // Por padrão, permite todas as origens
 
+  console.log('allowedOrigins', allowedOrigins);
+
   // Configurar opções de CORS
   app.enableCors({
     origin: (origin, callback) => {
