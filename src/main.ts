@@ -51,4 +51,4 @@ bootstrap();
 // console.log('DISCORD_FORM_BOT_TOKEN:', process.env.DISCORD_FORM_BOT_TOKEN);
 // console.log('DISCORD_GUILD_ID:', process.env.DISCORD_GUILD_ID);
 // console.log('DISCORD_CHANNEL_ID:', process.env.DISCORD_CHANNEL_ID);
-// console.log('CORS_ORIGIN:', process.env.CORS_ORIGIN);
+console.log('CORS_ORIGIN:', process.env.CORS_ORIGIN);
